@@ -1,0 +1,32 @@
+EVEN ODD
+
+int(input("enter a no. a:"))
+ if(a%2==0)
+   print(a," is even")
+else
+  print(a,"is odd")
+  
+  prime/nonprime
+  
+  int(input("enter n:"))
+  for(i in range(2,n)):
+   if( n%i==0)
+   print("n is nonprime")
+   break
+  else:
+   ("print prime")
+   
+   ARMSTRONG
+   num = int(input("Enter a number: "))  
+sum = 0  
+temp = num  
+  
+while temp > 0:  
+   digit = temp % 10  
+   sum += digit ** 3  
+   temp //= 10  
+  
+if num == sum:  
+   print(num,"is an Armstrong number")  
+else:  
+   print(num,"is not an Armstrong number")  
